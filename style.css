@@ -1,23 +1,16 @@
-
-div+p{
-    color: green;
-    background-color: brown;
-
+.box {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 15px;
+    background-color: lightblue;
 }
-p::after{
-    content: "WE are students of 3rd year CS B";
-    background-color: coral;
-    color : yellow;
-}
-p::selection{
-    background-color: chartreuse;
-    color: blue;
-}
-p:nth-child(2){
-    background-color: greenyellow;
-    color: black;
-}
-div p:nth-of-type(1){
-    background-color: darkblue;
-    color: white;
+.box1 {
+    height: auto;
+    width: auto;
+    padding: 10px;
+    border: 2px solid red;
+    margin: 5px;
+    background-color: lightgreen;       
 }
