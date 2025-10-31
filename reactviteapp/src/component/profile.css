@@ -1,6 +1,11 @@
-.parent {
-  border: 4px solid yellow;
-  height: 300px;
-  width: 350px;
-  background-color: blue;
+.parent{
+    border: 2px solid black;
+    width: 400px;
+    height: 600px;
+    background-color: aqua;
+    color: black;
+    justify-items: center;
+}
+img{
+    padding-left: 90px;
 }
