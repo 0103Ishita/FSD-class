@@ -1,0 +1,6 @@
+.container{
+  border: 2px solid red;
+  background-color: rgb(177, 197, 197);
+  color: gray;   
+  padding-left: 600px;
+}
