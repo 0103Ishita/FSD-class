@@ -5,15 +5,21 @@ import "./App.css";
 import Profile from "./component/profile";
 import Gallery from "./component/gallery"
 import StateHandling from "./component/StateHandling";
+import ImageManipulation from "./component/ImageManipulation";
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Login from "./pages/Login";
 
 
 function App() {
   return (
-    <div className="container">
-      <h2>welcome to react</h2>
+    <div>
       
-      {/* <Gallery /> */}
-     <h3><StateHandling/></h3>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/login' element={<Login/>}></Route>
+      </Routes>
+      </BrowserRouter>
+     
     </div>
   );
 }
